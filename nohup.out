@@ -1,0 +1,241 @@
+Traceback (most recent call last):
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/common/driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: /path/to/chromedriver
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lawliet/Desktop/registrationTracker/main.py", line 42, in <module>
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/common/driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/common/driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+Successfully logged in
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+INDEX ERROR
+WAITING........................
+SEARCHING......................
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+INDEX ERROR
+WAITING........................
+SEARCHING......................
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+INDEX ERROR
+WAITING........................
+SEARCHING......................
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+INDEX ERROR
+WAITING........................
+SEARCHING......................
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+INDEX ERROR
+WAITING........................
+SEARCHING......................
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+INDEX ERROR
+WAITING........................
+SEARCHING......................
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+INDEX ERROR
+WAITING........................
+SEARCHING......................
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+INDEX ERROR
+WAITING........................
+SEARCHING......................
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+INDEX ERROR
+WAITING........................
+SEARCHING......................
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+INDEX ERROR
+WAITING........................
+SEARCHING......................
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+INDEX ERROR
+WAITING........................
+SEARCHING......................
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+24  TO  24
+INDEX ERROR
+WAITING........................
+SEARCHING......................
+Traceback (most recent call last):
+  File "/Users/lawliet/Desktop/registrationTracker/main.py", line 82, in <module>
+    search_bar.clear()
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/support/expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 770, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.110)
+Stacktrace:
+0   chromedriver                        0x0000000101177af0 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000101170340 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000100bd84b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000100bb3994 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x0000000100c42890 cxxbridge1$string$len + 524388
+5   chromedriver                        0x0000000100c5576c cxxbridge1$string$len + 601920
+6   chromedriver                        0x0000000100c110b0 cxxbridge1$string$len + 321668
+7   chromedriver                        0x0000000100c11d00 cxxbridge1$string$len + 324820
+8   chromedriver                        0x0000000101142e34 cxxbridge1$str$ptr + 3435328
+9   chromedriver                        0x000000010114614c cxxbridge1$str$ptr + 3448408
+10  chromedriver                        0x000000010112a1a8 cxxbridge1$str$ptr + 3333812
+11  chromedriver                        0x0000000101146a0c cxxbridge1$str$ptr + 3450648
+12  chromedriver                        0x000000010111b9b4 cxxbridge1$str$ptr + 3274432
+13  chromedriver                        0x0000000101161120 cxxbridge1$str$ptr + 3558956
+14  chromedriver                        0x000000010116129c cxxbridge1$str$ptr + 3559336
+15  chromedriver                        0x000000010116ffb4 cxxbridge1$str$ptr + 3620032
+16  libsystem_pthread.dylib             0x000000018b6f2f94 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018b6edd34 thread_start + 8
+
+Traceback (most recent call last):
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/common/driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: /path/to/chromedriver
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lawliet/Desktop/registrationTracker/main.py", line 42, in <module>
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/common/driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/common/driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+Traceback (most recent call last):
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/common/driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: /path/to/chromedriver
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lawliet/Desktop/registrationTracker/main.py", line 42, in <module>
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/common/driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lawliet/Desktop/registrationTracker/.venv/lib/python3.12/site-packages/selenium/webdriver/common/driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
